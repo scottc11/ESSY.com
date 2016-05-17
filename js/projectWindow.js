@@ -1,8 +1,8 @@
 
-// function expandProjectWindow() {
-//   $('.detailView').fadeToggle(400);
-//
-//
-// }
-//
-// $('.block').on('click', expandProjectWindow);
+function expandProjectWindow() {
+  $('.projectLightbox').fadeToggle(400);
+
+
+}
+
+$('.block').on('click', expandProjectWindow);
