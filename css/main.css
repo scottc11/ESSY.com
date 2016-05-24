@@ -15,12 +15,13 @@ body {
 }
 
 .home-page {
-  position: fixed;
+  /*position: fixed;
   top: 0;
-  left: 0;
+  left: 0;*/
   width: 100%;
   height: 600px;
-  text-align: center;
+  border: 1px dashed black;
+  /*text-align: center;*/
   z-index: -1;
 }
 
@@ -42,18 +43,24 @@ body {
   display: block;
   position: absolute;
   font-size: 2.5em;
-  margin: 35px 40px 0 0;
+  margin: 35px 10px 0 0;
   right: 0;
 
 }
 
 #canvas-container {
-  display: inline-block;
+  /*display: inline-block;*/
+  position: absolute;
   box-sizing: content-box;
   border: 2px dashed black;
   width: 400px;
   height: 400px;
-  margin-top: 150px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /*margin-top: 150px;*/
 }
 
 
@@ -62,7 +69,7 @@ body {
   background-color: rgba(252, 203, 135, 0.5);
   width: 100%;
   height: auto;
-  margin: 600px 5px 5px 5px;
+  /*margin: 600px 5px 5px 5px;*/
   padding: 10px;
   text-align: center;
 }
@@ -80,7 +87,7 @@ body {
   background-color: #ffffff;
   width: 200px;
   height: 200px;
-  border-radius: 20px;
+  border-radius: 8px;
   margin: 20px;
 }
 
@@ -89,30 +96,5 @@ body {
   /*background-position: center;*/
   width: 100%;
   height: 100%;
-  border-radius: 20px;
-}
-/********************************/
-/*********DETAIL VIEW***********/
-
-.projectLightbox {
-  position: fixed;
-  display: none;
-  background: rgba(81, 128, 72, 0.80);
-  border-radius: 10px;
-  padding: 20px;
-  width: 400px;
-  height: 600px;
-  color: white;
-  right: 0;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  overflow: scroll;
-}
-
-.projectLightbox img {
-  width: 350px;
-  height: 350px;
-  margin: auto;
+  border-radius: 8px;
 }

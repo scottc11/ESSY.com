@@ -1,0 +1,43 @@
+/********************************/
+/*********DETAIL VIEW***********/
+
+.projectLightbox {
+  position: fixed;
+  display: none;
+  background: rgb(99, 99, 99);
+  padding: 20px;
+  width: 400px;
+  height: 600px;
+  color: white;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: scroll;
+}
+
+.projectLightbox img {
+  width: 350px;
+  height: 350px;
+  margin: auto;
+}
+
+.sketchWindow {
+  position: fixed;
+  display: none;
+  background-color: rgb(99, 99, 99);
+  width: 80%;
+  height: 300px;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  transition: all 1.0s ease;
+}
+
+.transition {
+  display: block;
+  opacity: 1.0;
+}
