@@ -52,7 +52,7 @@ body {
 
 }
 
-#canvas-container {
+#homeSketchContainer {
   /*display: inline-block;*/
   position: absolute;
   box-sizing: content-box;
