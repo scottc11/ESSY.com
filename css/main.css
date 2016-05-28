@@ -9,6 +9,16 @@
 <li title="#0F0F0F" style="background: #0F0F0F"></li>
 */
 
+/*
+background image color scheme
+
+<li title="#867D80" style="background: #867D80"></li>
+<li title="#756F73" style="background: #756F73"></li>
+<li title="#29333E" style="background: #29333E"></li>
+<li title="#1B1F28" style="background: #1B1F28"></li>
+<li title="#464D57" style="background: #464D57"></li>
+*/
+
 body {
   background-image: url("../img/background_image_alt.jpg");
   background-position: center;
@@ -19,13 +29,9 @@ body {
 }
 
 .home-page {
-  /*position: fixed;
-  top: 0;
-  left: 0;*/
   width: 100%;
   height: 600px;
   border: 1px dashed black;
-  /*text-align: center;*/
   z-index: -1;
 }
 
@@ -34,22 +40,37 @@ body {
   height: auto;
 }
 
+.navBar {
+  display: block;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
 .logo {
-  position: absolute;
+  display: inline-block;
+  float: left;
   width: 150px;
   height: auto;
   margin-left: 10px;
-  left: 0;
 }
 
 
 .menu-hamburger {
-  display: block;
-  position: absolute;
+  display: inline-block;
+  float: right;
   font-size: 2.5em;
   margin: 35px 10px 0 0;
-  right: 0;
+}
 
+.pageHeading {
+  display: inline-block;
+  margin: auto;
+}
+
+.pageHeading h1 {
+  color: #F5F5F6;
+  font-size: 1.8em;
 }
 
 #homeSketchContainer {
