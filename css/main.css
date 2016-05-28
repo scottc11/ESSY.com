@@ -88,14 +88,10 @@ body {
   /*margin-top: 150px;*/
 }
 
+/*************************************/
+/******* PROJECTS SIDE BAR ***********/
 
 .blocks-container {
-  border: 1px dashed #F4BA69;
-  background-color: rgba(252, 203, 135, 0.5);
-  width: 100%;
-  height: auto;
-  /*margin: 600px 5px 5px 5px;*/
-  padding: 10px;
   text-align: center;
 }
 
