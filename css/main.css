@@ -10,7 +10,11 @@
 */
 
 body {
-  background-color: #fce7c9;
+  background-image: url("../img/background_image_alt.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 15px;
 }
 
