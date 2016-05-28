@@ -1,3 +1,57 @@
+/*************************************/
+/******* PROJECTS SIDE BAR ***********/
+
+.projects-container {
+  background-color: #29333E;
+  width: 0;
+  height: 200px;
+  transition: width 1.5s ease;
+}
+
+.expand {
+  width: 33%;
+}
+
+.button {
+  background-color: white;
+  margin: 10px;
+  width: 50px;
+  height: 20px;
+}
+.clicked {
+  background-color: yellow;
+}
+
+.blocks-container ul {
+  width: 100%;
+  padding: 0;
+}
+
+.blocks-container li {
+  display: inline-block;
+}
+
+.block {
+  background-color: #ffffff;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.block img {
+  /*background-size: cover;*/
+  /*background-position: center;*/
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+
+
+
+
+
 /********************************/
 /*********DETAIL VIEW***********/
 

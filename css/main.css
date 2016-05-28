@@ -87,35 +87,3 @@ body {
   margin: auto;
   /*margin-top: 150px;*/
 }
-
-/*************************************/
-/******* PROJECTS SIDE BAR ***********/
-
-.blocks-container {
-  text-align: center;
-}
-
-.blocks-container ul {
-  width: 100%;
-  padding: 0;
-}
-
-.blocks-container li {
-  display: inline-block;
-}
-
-.block {
-  background-color: #ffffff;
-  width: 200px;
-  height: 200px;
-  border-radius: 8px;
-  margin: 20px;
-}
-
-.block img {
-  /*background-size: cover;*/
-  /*background-position: center;*/
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-}

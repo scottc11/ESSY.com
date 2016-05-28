@@ -1,12 +1,14 @@
 
-function expandProjectWindow() {
-  $('.projectLightbox').fadeToggle(400);
+function expandProjectsContainer() {
+  $('.projects-container').addClass('expand');
+
 }
 
-function expandSketchWindow() {
-  $('.sketchWindow').fadeToggle(400);
+function collapseProjectsContainer() {
+  $('.projects-container').removeClass('expand');
+
 }
 
 
-$('.block1').on('click', expandProjectWindow);
-$('.block2').on('click', expandSketchWindow);
+$('.button1').on('click', expandProjectsContainer);
+$('.button2').on('click', collapseProjectsContainer);
