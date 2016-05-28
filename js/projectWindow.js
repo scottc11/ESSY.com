@@ -1,12 +1,12 @@
 
 function expandProjectsContainer() {
-  $('.projects-container').addClass('expand');
-
+  $('.projects-sidebar').addClass('expand');
+  $('.modalCover').addClass('modalTransition');
 }
 
 function collapseProjectsContainer() {
-  $('.projects-container').removeClass('expand');
-
+  $('.projects-sidebar').removeClass('expand');
+  $('.modalCover').removeClass('modalTransition');
 }
 
 
