@@ -1,16 +1,16 @@
 
-function expandProjectsContainer() {
+function expandSidebar() {
   $('.projects-sidebar').addClass('expand');
   $('.modalCover').addClass('modalTransition');
-  $('.projects-button').addClass('projectsButtonTransition');
+  $('.sidebar-open-button').addClass('openButtonTransition');
 }
 
-function collapseProjectsContainer() {
+function collapseSidebar() {
   $('.projects-sidebar').removeClass('expand');
   $('.modalCover').removeClass('modalTransition');
-  $('.projects-button').removeClass('projectsButtonTransition');
+  $('.sidebar-open-button').removeClass('openButtonTransition');
 }
 
 
-$('.projects-button').on('click', expandProjectsContainer);
-$('.button2').on('click', collapseProjectsContainer);
+$('.sidebar-open-button').on('click', expandSidebar);
+$('.sidebar-close-button').on('click', collapseSidebar);

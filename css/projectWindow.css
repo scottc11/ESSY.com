@@ -55,7 +55,7 @@
   height: 100%;
 }
 
-.projects-button {
+.sidebar-open-button {
   position: fixed;
   display: block;
   border: 1px dashed white;
@@ -66,22 +66,29 @@
   transition: all 1s ease;
 }
 
-.projectsButtonTransition {
+.openButtonTransition {
   left: 300px;
 }
 
-.projects-button ul {
+.sidebar-open-button ul {
   list-style-type: none;
   padding: 0;
+  text-align: center;
+}
+
+.sidebar-open-button ul span {
+  color: #F4BA69;
+  line-height: 200%;
 }
 
 
-.button {
-  background-color: white;
-  margin: 10px;
-  width: 50px;
-  height: 20px;
-  float: right;
+.sidebar-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 1.5em;
+  margin-right: 15px;
 }
 
 
