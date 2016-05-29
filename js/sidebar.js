@@ -9,6 +9,7 @@ function collapseSidebar() {
   $('.projects-sidebar').removeClass('expand');
   $('.modalCover').removeClass('modalTransition');
   $('.sidebar-open-button').removeClass('openButtonTransition');
+  $('.projectWindow').removeClass('projectWindowTransition');
 }
 
 

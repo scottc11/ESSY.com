@@ -2,9 +2,12 @@
   display: none;
   background-color: white;
   position: absolute;
-  width: 400px;
-  height: 300px;
-
+  width: auto;
+  height: auto;
+  margin-left: 325px;  /*where the sidebar slide out + 25px*/
+  margin-right: 25px;
+  top: 50%; /*centering vertically*/
+  transform: translateY(-50%); /*centering vertically*/
 }
 
 .projectWindowTransition {
