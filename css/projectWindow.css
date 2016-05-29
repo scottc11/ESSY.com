@@ -1,1 +1,16 @@
+.projectWindow {
+  display: none;
+  background-color: white;
+  position: absolute;
+  width: 400px;
+  height: 300px;
 
+}
+
+.projectWindowTransition {
+  display: inline-block;
+}
+
+.clicked {
+
+}
