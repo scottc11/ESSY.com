@@ -29,6 +29,8 @@
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   transition: width 1s ease;
 }
 

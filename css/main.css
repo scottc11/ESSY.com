@@ -28,8 +28,16 @@ body {
   /*padding: 15px;*/
 }
 
-.home-page {
-  filter: blur(20px);
+.preloadIcon {
+  background-color: white;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .home-page {

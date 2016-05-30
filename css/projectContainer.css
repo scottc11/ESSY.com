@@ -1,9 +1,11 @@
 .projectContainer {
   display: none;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
   width: auto;
   height: auto;
+  border-radius: 5px;
+  padding: 10px;
   margin-left: 325px;  /*where the sidebar slide out + 25px*/
   margin-right: 25px;
   top: 50%; /*centering vertically*/
