@@ -2,18 +2,26 @@
 .about-sidebar {
   display: inline-block;
   background-color: rgba(41, 51, 62, 0.83);
-  height: 100%; /* 100% Full-height */
+  height: 80%;
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0;
+  bottom: 0;
   right: 0;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  left: 0;
+  margin-left: 100%;
+  transform: translateX(0);
+  border-radius: 5px;
+  box-shadow: 0 0 15px black;
   transition: width 1s ease;
 }
 
-.about-window-transition {width: 500px;}
+/*presents about window from center of screen outward*/
+.about-window-transition {
+  width: 80%;
+  margin: auto;
+}
 
 .about-open-button {
   position: fixed;
