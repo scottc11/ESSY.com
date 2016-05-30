@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1000px) {
+    .pageHeading h1 {
+        font-size: 1.7em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .pageHeading h1 {
+        font-size: 1.4em;
+    }
+}

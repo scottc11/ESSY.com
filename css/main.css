@@ -51,7 +51,18 @@ p {
 }
 
 .blur-me {
-  filter: blur(20px);
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.blurry-text {
+  color: yellow;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.blur-transition {
+  -webkit-transition: -webkit-filter 1s linear;
+  transition: filter 1s linear;
 }
 
 .home-page {
@@ -81,6 +92,7 @@ p {
   width: 150px;
   height: auto;
   margin-left: 10px;
+
 }
 
 
@@ -93,12 +105,19 @@ p {
 
 .pageHeading {
   display: inline-block;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
   margin: auto;
 }
 
 .pageHeading h1 {
   color: #F5F5F6;
-  font-size: 1.8em;
+  font-size: 2em;
+  font-family: consolas;
+  font-style: regular;
+  text-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
 #homeSketchContainer {
