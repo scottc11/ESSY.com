@@ -34,6 +34,16 @@
   text-align: center;
 }
 
+.about-open-button ul li {
+  margin: 3px 0 3px 0;
+}
+
+/* selecting the last three list items in ul */
+.about-open-button ul li:nth-child(6){
+  color: #F4BA69;
+  line-height: 200%;
+}
+
 .about-close-button {
   position: absolute;
   top: 0;
