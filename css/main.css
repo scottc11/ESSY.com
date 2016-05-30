@@ -71,8 +71,9 @@ p {
 }
 
 .logo {
-  display: inline-block;
-  float: left;
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 150px;
   height: auto;
   margin-left: 10px;

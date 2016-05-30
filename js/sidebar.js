@@ -8,6 +8,7 @@ function expandSidebar() {
   $('.logo').addClass('blur-me'); // blur logo
   $('.pageHeading > h1').addClass('blurry-text'); // blur heading text
   $('#homeSketchContainer').fadeToggle();
+  $('.project-list').addClass('displayProjectList');
 }
 
 // upon the project sidebar open do the follow transitions
@@ -37,6 +38,6 @@ $('.projects-sidebar').on("transitionend webkitTransitionEnd oTransitionEnd MSTr
   if ($list.hasClass('displayProjectList')) {
 
   } else {
-    $list.addClass('displayProjectList');
+
   }
 });
