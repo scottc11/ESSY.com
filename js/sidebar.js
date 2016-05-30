@@ -31,13 +31,13 @@ $('.sidebar-close-button').on('click', collapseSidebar);
 
 // NOT IN USE
 // When the 'about' windows open transition ends, slide the side buttons out of view
-$('.projects-sidebar').on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function() {
-  var $list = $('.project-list');
-
-
-  if ($list.hasClass('displayProjectList')) {
-
-  } else {
-
-  }
-});
+// $('.projects-sidebar').on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function() {
+//   var $list = $('.project-list');
+//
+//
+//   if ($list.hasClass('displayProjectList')) {
+//
+//   } else {
+//
+//   }
+// });
