@@ -50,20 +50,7 @@ p {
   margin: auto;
 }
 
-.blur-me {
-  -webkit-filter: blur(1px);
-  filter: blur(1px);
-}
 
-.blurry-text {
-  opacity: 0.1;
-  text-shadow: 0 0 20px rgba(0,0,0,0.5);
-}
-
-.blur-transition {
-  -webkit-transition: -webkit-filter 1s linear;
-  transition: filter 1s linear;
-}
 
 .home-page {
   width: 100%;
@@ -106,7 +93,7 @@ p {
 .pageHeading {
   display: inline-block;
   position: absolute;
-  top: 80px;
+  top: 10%;
   left: 0;
   right: 0;
   margin: auto;
@@ -122,16 +109,43 @@ p {
 }
 
 #homeSketchContainer {
-  /*display: inline-block;*/
   position: absolute;
   box-sizing: content-box;
-  border: 2px dashed black;
+  /*border: 2px dashed black;*/
   width: 400px;
   height: 400px;
-  top: 0;
+  top: 60%;
+  transform: translateY(-50%);
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
-  /*margin-top: 150px;*/
+  border-radius: 50%;
+  border: 20px solid rgba(0,0,0, 0.2);
+  box-shadow: 0 0 150px black;
+}
+
+#defaultCanvas0 {
+  /*border: 1px solid white;*/
+  border-radius: 50%;
+  box-shadow: 0 0 40px rgba(47, 52, 59, 1);
+  -moz-box-shadow: 0 0 40px rgba(47, 52, 59, 1);
+  -webkit-box-shadow: 0 0 40px rgba(47, 52, 59, 1);
+
+}
+
+
+.blur-me {
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.blurry-text {
+  opacity: 0.1;
+  text-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.blur-transition {
+  -webkit-transition: -webkit-filter 1s linear;
+  transition: filter 1s linear;
 }

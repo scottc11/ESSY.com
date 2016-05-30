@@ -62,15 +62,13 @@ function setup() {
 
 function draw() {
 
-  fill(70, 77, 87);
+  fill(70, 77, 87, 100);
   noStroke();
   rect(0, 0, width, height);
 
-  // background(77, 33, 45, 0.2);
-
   attractor.location.x = mouseX;
   attractor.location.y = mouseY;
-  attractor.draw();
+  // attractor.draw();
 
   // updating the particles
   for (var i = 0; i < particleArray.length; i++) {
