@@ -21,6 +21,7 @@ function collapseAbout() {
 $('.about-open-button').on('click', expandAbout);
 $('.about-close-button').on('click', collapseAbout);
 
+// NOT IN USE
 // When the 'about' windows open transition ends, slide the side buttons out of view
 $('.about-sidebar').on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function() {
   var $about = $('.about-open-button');
