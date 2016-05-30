@@ -62,7 +62,7 @@ function setup() {
 
 function draw() {
 
-  fill(70, 77, 87, 100);
+  fill(27, 31, 40, 100);
   noStroke();
   rect(0, 0, width, height);
 
