@@ -37,18 +37,31 @@ p {
   font-family: consolas;
   font-style: regular;
 }
-
-.preloader {
-  background-color: white;
+.preloaderContainer {
+  display: block;
   position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+  width: 2000px;
+  height: 2000px;
+  background-color: rgb(27, 31, 40);
+  z-index: 998;
 }
+.preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    margin: -42px 0 0 -12px;
+    background: #C60B09;
+    transform: rotate(45deg);
+    z-index: -1;
+    animation: spin 1s infinite linear;
+}
+@keyframes spin {
+	0% { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(360deg);   }
+}
+
 
 
 
