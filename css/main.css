@@ -56,8 +56,8 @@ p {
 }
 
 .blurry-text {
-  color: yellow;
-  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  opacity: 0.1;
+  text-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .blur-transition {
@@ -117,7 +117,8 @@ p {
   font-size: 2em;
   font-family: consolas;
   font-style: regular;
-  text-shadow: 0 0 10px rgba(0,0,0,0.8);
+  text-shadow: 0 0 15px rgba(0,0,0,0.8);
+  transition: opacity 1s ease;
 }
 
 #homeSketchContainer {

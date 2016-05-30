@@ -36,6 +36,7 @@
   margin-right: 8px;
   top: 40%;
   right: 0;
+  text-shadow: -3px 0 10px rgba(0,0,0,0.8);
   transition: right 1s ease;
 }
 
