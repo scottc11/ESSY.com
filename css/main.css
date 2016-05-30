@@ -28,6 +28,16 @@ body {
   /*padding: 15px;*/
 }
 
+h1 {
+  font-family: futura;
+  font-style: medium;
+}
+
+p {
+  font-family: consolas;
+  font-style: regular;
+}
+
 .preloader {
   background-color: white;
   position: absolute;
@@ -38,6 +48,10 @@ body {
   left: 0;
   right: 0;
   margin: auto;
+}
+
+.blur-me {
+  filter: blur(20px);
 }
 
 .home-page {

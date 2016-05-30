@@ -29,6 +29,7 @@
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
+  box-shadow: 0 5px 10px black;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   transition: width 1s ease;
@@ -92,8 +93,3 @@
 .sidebar-open-button:hover {color: #F4BA69;}
 .sidebar-close-button:hover {color: #F4BA69;}
 .project:hover {box-shadow: 0 0 10px white;}
-
-
-.blur-me {
-  filter: blur(20px);
-}
