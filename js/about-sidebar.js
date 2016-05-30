@@ -14,7 +14,7 @@ $('.about-open-button').on('click', expandAbout);
 $('.about-close-button').on('click', collapseAbout);
 
 // On about windows open transition, slide the side buttons out of view
-$('.about-sidebar').one("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function() {
+$('.about-sidebar').on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function() {
   var $about = $('.about-open-button');
   var $sidebar = $('.sidebar-open-button');
   if ($about.hasClass('aboutButtonTransition')) {
