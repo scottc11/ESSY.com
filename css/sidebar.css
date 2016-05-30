@@ -34,10 +34,8 @@
   transition: width 1s ease;
 }
 
-/*transition*/
-.expand {
-  width: 300px;
-}
+/*sidebar width transition*/
+.expand {width: 300px;}
 
 .project-list {
   list-style-type: none;
@@ -61,7 +59,6 @@
 .sidebar-open-button {
   position: fixed;
   display: block;
-  /*border: 1px dashed white;*/
   color: white;
   padding: 5px 5px 5px 5px;
   margin-left: 8px;

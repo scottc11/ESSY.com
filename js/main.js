@@ -8,3 +8,10 @@ $(window).on('scroll', function() {
   var sketchHeight = $('#canvas-container').height();
 
 })
+
+// Preloader for main page
+// Wait for window load
+$(window).load(function() {
+	// Animate loader off screen
+	$(".preloader").fadeOut("slow");;
+});
