@@ -107,15 +107,12 @@ function Particle(_locX, _locY, _size, _name) {
   this.topSpeed = 10;
 
   this.draw = function() {
-    // SHADOW ELLIPSE
-    // fill(55);
-    // noStroke();
-    // ellipse(this.location.x + 3, this.location.y + 2, this.size + 1, this.size + 1);
-
     //WHITE ELLIPSE
-    fill(255);
-    noStroke();
-    ellipse(this.location.x, this.location.y, this.size, this.size);
+    if (this.size > 2.5) {
+      fill(255);
+      noStroke();
+      ellipse(this.location.x, this.location.y, this.size, this.size);
+    } 
   }
 
   // Apply the given force returned from Attractor to the particles velocity
