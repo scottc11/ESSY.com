@@ -1,4 +1,4 @@
-.projectWindow {
+.projectContainer {
   display: none;
   background-color: white;
   position: absolute;
@@ -10,7 +10,7 @@
   transform: translateY(-50%); /*centering vertically*/
 }
 
-.projectWindowTransition {
+.projectContainerTransition {
   display: inline-block;
 }
 
