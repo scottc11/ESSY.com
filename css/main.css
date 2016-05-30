@@ -29,6 +29,10 @@ body {
 }
 
 .home-page {
+  filter: blur(20px);
+}
+
+.home-page {
   width: 100%;
   height: 700px;
   border: 1px dashed black;
