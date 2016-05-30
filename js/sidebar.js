@@ -7,6 +7,7 @@ function expandSidebar() {
   $('.about-open-button').addClass('aboutButtonTransition');
   $('.logo').addClass('blur-me'); // blur logo
   $('.pageHeading > h1').addClass('blurry-text'); // blur heading text
+  $('#homeSketchContainer').fadeToggle();
 }
 
 // upon the project sidebar open do the follow transitions
@@ -18,6 +19,7 @@ function collapseSidebar() {
   $('.projectContainer').removeClass('projectContainerTransition');
   $('.logo').removeClass('blur-me');  //un-blur the logo
   $('.pageHeading > h1').removeClass('blurry-text'); // blur heading text
+  $('#homeSketchContainer').fadeToggle();
 }
 
 

@@ -23,16 +23,16 @@ $('.about-close-button').on('click', collapseAbout);
 
 // NOT IN USE
 // When the 'about' windows open transition ends, slide the side buttons out of view
-$('.about-sidebar').on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function() {
-  var $about = $('.about-open-button');
-  var $sidebar = $('.sidebar-open-button');
-
-
-  if ($about.hasClass('aboutButtonTransition')) {
-
-
-  } else {
-
-
-  }
-});
+// $('.about-sidebar').on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function() {
+//   var $about = $('.about-open-button');
+//   var $sidebar = $('.sidebar-open-button');
+//
+//
+//   if ($about.hasClass('aboutButtonTransition')) {
+//
+//
+//   } else {
+//
+//
+//   }
+// });
