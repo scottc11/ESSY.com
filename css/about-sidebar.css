@@ -31,10 +31,10 @@
   margin-right: 8px;
   top: 40%;
   right: 0;
-  transition: left 1.5s ease;
+  transition: right 1s ease;
 }
 
-.aboutButtonTransition {left: -50px;}
+.aboutButtonTransition {right: -30px;}
 
 .about-open-button ul {
   list-style-type: none;

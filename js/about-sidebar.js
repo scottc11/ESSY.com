@@ -1,8 +1,10 @@
+// upon the about windows open do the follow transitions
 function expandAbout() {
   $('.about-sidebar').addClass('about-window-transition');
   $('.modalCover').addClass('modalTransition');
 }
 
+// upon the about windows close button do the follow transitions
 function collapseAbout() {
   $('.about-sidebar').removeClass('about-window-transition');
   $('.modalCover').removeClass('modalTransition');
@@ -11,7 +13,15 @@ function collapseAbout() {
 $('.about-open-button').on('click', expandAbout);
 $('.about-close-button').on('click', collapseAbout);
 
-// TRANSITION END BUTTON DISSAPEAR
-// $('about-sidebar').on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function() {
-//
-// });
+// On about windows open transition, slide the side buttons out of view
+$('.about-sidebar').one("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function() {
+  var $about = $('.about-open-button');
+  var $sidebar = $('.sidebar-open-button');
+  if ($about.hasClass('aboutButtonTransition')) {
+    $about.removeClass('aboutButtonTransition');
+    $sidebar.removeClass('openButtonTransition');
+  } else {
+    $about.addClass('aboutButtonTransition');
+    $sidebar.addClass('openButtonTransition');
+  }
+});

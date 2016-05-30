@@ -64,11 +64,11 @@
   margin-left: 8px;
   top: 40%;
   left: 0;
-  transition: left 1.5s ease;
+  transition: left 1s ease;
 }
 
 .openButtonTransition {
-  left: -50px;
+  left: -30px;
 }
 
 .sidebar-open-button ul {

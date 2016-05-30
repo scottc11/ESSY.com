@@ -1,10 +1,12 @@
 
+// upon the project sidebar open do the follow transitions
 function expandSidebar() {
   $('.projects-sidebar').addClass('expand');
   $('.modalCover').addClass('modalTransition');
   $('.sidebar-open-button').addClass('openButtonTransition');
 }
 
+// upon the project sidebar open do the follow transitions
 function collapseSidebar() {
   $('.projects-sidebar').removeClass('expand');
   $('.modalCover').removeClass('modalTransition');
