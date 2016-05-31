@@ -36,6 +36,10 @@
 /*sidebar width transition*/
 .expand {width: 300px;}
 
+.projectsHeader {
+  color: white;
+}
+
 .project-list {
   display: none;
   list-style-type: none;
