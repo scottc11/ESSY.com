@@ -4,11 +4,14 @@
   position: absolute;
   width: auto;
   height: auto;
+  max-width: 100%;
+  max-height: 85%;
   border-radius: 5px;
   padding: 10px;
   margin-left: 305px;  /*where the sidebar slide out + 25px*/
   margin-right: 5px;
   top: 50%; /*centering vertically*/
+  overflow: scroll;
   transform: translateY(-50%); /*centering vertically*/
 }
 

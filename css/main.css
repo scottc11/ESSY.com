@@ -37,6 +37,12 @@ p {
   font-family: consolas;
   font-style: regular;
 }
+
+a.no-underline:link  
+{
+ text-decoration:none;
+}
+
 .preloaderContainer {
   display: block;
   position: absolute;
