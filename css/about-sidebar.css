@@ -11,7 +11,7 @@
   right: 0;
   left: 0;
   margin-left: 100%;
-  padding: 10px;
+  padding: 30px;
   /*transform: translateX(0);*/
   border-radius: 5px;
   box-shadow: 0 0 15px black;
@@ -27,6 +27,18 @@
 .about-content {
   color: white;
 }
+
+.about-content h2 {
+  text-decoration: underline;
+}
+
+/*.about-content img {
+  float: left;
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+}*/
 
 .about-open-button {
   position: fixed;
